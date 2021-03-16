@@ -67,6 +67,12 @@ fieldset legend{
     color: var(--color-second);
     padding: 1.5rem;
 }
+.form input, .form label, fieldset input, fieldset label{
+    display: block;
+    width: 100%;
+    margin-bottom: 1rem;
+
+}
 section a, form input[type="button"]{
     display: block;
     line-height: 4rem;
